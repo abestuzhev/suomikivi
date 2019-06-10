@@ -245,10 +245,11 @@
 
 .card-character__attribute {
     text-align: right;
-    font-size: 1.6rem;
+    font-size: 14px;
     color: #553023;
     white-space: nowrap;
-    margin-left: .4em;
+    margin-left: 4px;
+    line-height: 1;
 }
 
 .card-character__item::after {
