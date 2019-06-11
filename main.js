@@ -15,6 +15,11 @@ $(function(){
         $(tab).fadeIn();
     });
 
+    $(document).on('click', '.c-filter-mobile__header', function(event) {
+        event.preventDefault();
+        $('.c-filter-mobile__body').slideToggle(300);
+    });
+
     $('.card-slider-big').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
