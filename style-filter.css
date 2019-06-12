@@ -125,6 +125,12 @@
 .card-slider-big {
     margin-bottom: 14px;
     text-align: center;
+    overflow: hidden;
+}
+
+.card-slider-big .slick-track {
+    
+    overflow: hidden;
 }
 
 
