@@ -428,6 +428,7 @@ border-color:rgba(233,40,79,1);
     text-decoration: none;
 }
 
+.card-buy .bxr-counter-compare-active,
 .card-buy .bxr-indicator-item-active {
     background: none;
 }
