@@ -495,15 +495,18 @@ border-color:rgba(233,40,79,1);
     fill: #9a9c9b;
 }
 
+.card-buy .bxr-counter-compare-active svg,
 .card-buy .bxr-indicator-item-active svg {
     fill: #e9284f;
 }
 
+.card-buy .bxr-counter-compare-active a,
 .card-buy .bxr-indicator-item-active a {
     border-color: #e9284f;
     
 }
 
+.card-buy .bxr-counter-compare-active span,
 .card-buy .bxr-indicator-item-active span {
     color: #e9284f;
 }
