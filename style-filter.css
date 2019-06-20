@@ -238,11 +238,11 @@ border-color:rgba(233,40,79,1);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: nowrap;
-    flex-flow: nowrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
@@ -251,7 +251,7 @@ border-color:rgba(233,40,79,1);
 }
 
 .card-property-change {
-    width: 100%;
+    /* width: 100%; */
     padding: 0 8px;
     margin-bottom: 8px;
 }
@@ -428,6 +428,12 @@ border-color:rgba(233,40,79,1);
     text-decoration: none;
 }
 
+.card-buy .bxr-indicator-item-active {
+    background: none;
+}
+
+
+
 /*card-operation-list*/
 .card-operation-list {
     display: -webkit-box;
@@ -472,10 +478,34 @@ border-color:rgba(233,40,79,1);
 .card-operation-list__btn span {
     display: block;
     text-align: center;
+    color: #9a9c9b;
 }
 
 .card-operation-list__btn:hover {
     text-decoration: none;
+    opacity: .8;
+}
+
+.card-operation-list__btn:hover span {
+    color: #9a9c9b;
+}
+
+.card-buy svg {
+    height: 100%;
+    fill: #9a9c9b;
+}
+
+.card-buy .bxr-indicator-item-active svg {
+    fill: #e9284f;
+}
+
+.card-buy .bxr-indicator-item-active a {
+    border-color: #e9284f;
+    
+}
+
+.card-buy .bxr-indicator-item-active span {
+    color: #e9284f;
 }
 
 /*------*/
