@@ -1,8 +1,12 @@
 $(function(){
-    $('.c-select').SumoSelect({
 
-        csvDispCount: 3
-    });
+    function selectInit(){
+        $('.c-select').SumoSelect({
+            csvDispCount: 3
+        });
+    }
+    selectInit();
+    
 
     /*простые табы*/
     $(document).on('click', '.tabs-menu a', function(event) {
@@ -59,6 +63,9 @@ $(function(){
         event.preventDefault();
         $('.c-filter-mobile__body').slideToggle(300);
         $(this).toggleClass('active');
+        selectInit();
+
+
     });
 
     $('.card-slider-big').slick({
