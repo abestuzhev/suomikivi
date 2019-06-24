@@ -760,6 +760,12 @@ border-color:rgba(233,40,79,1);
 }
 
 
+.c-select,
+.c-select option {
+    width:100% !important;
+    max-width: 100%;
+}
+
 /*tabs-------------------------------------------------*/
 .c-tabs {
     margin-bottom: 28px;
