@@ -72,6 +72,7 @@ $(function(){
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
+        centerMode: true,
         fade: true,
         dots: false,
         asNavFor: '.card-slider-small',
